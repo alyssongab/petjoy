@@ -22,15 +22,15 @@ const Header = () => {
                     {/* Navegação (Centro) - Visível apenas em desktop */}
                     <nav className="hidden md:block">
                         <ul className="flex space-x-11">
-                            <li><a href="#servicos" className="text-petbrown hover:text-amber-600 font-medium transition-colors" style={{ fontFamily: 'Montserrat, sans-serif' }}>Serviços</a></li>
-                            <li><a href="#faq" className="text-petbrown hover:text-amber-600 font-medium transition-colors" style={{ fontFamily: 'Montserrat, sans-serif' }}>FAQ</a></li>
-                            <li><a href="#localizacao" className="text-petbrown hover:text-amber-600 font-medium transition-colors" style={{ fontFamily: 'Montserrat, sans-serif' }}>Localização</a></li>
+                            <li><a href="#servicos" className="text-petbrown hover:text-amber-600 font-medium transition-all duration-300 hover:scale-110 origin-center inline-block transform" style={{ fontFamily: 'Montserrat, sans-serif' }}>Serviços</a></li>
+                            <li><a href="#faq" className="text-petbrown hover:text-amber-600 font-medium transition-all duration-300 hover:scale-110 origin-center inline-block transform" style={{ fontFamily: 'Montserrat, sans-serif' }}>FAQ</a></li>
+                            <li><a href="#localizacao" className="text-petbrown hover:text-amber-600 font-medium transition-all duration-300 hover:scale-110 origin-center inline-block transform" style={{ fontFamily: 'Montserrat, sans-serif' }}>Localização</a></li>
                         </ul>
                     </nav>
 
                     {/* Botão de Agendamento (link para whatsapp) */}
                     <div className="hidden md:flex items-center">
-                        <button className="bg-green-500 hover:bg-green-600 text-white px-5 py-2 rounded-full font-medium transition-colors flex items-center space-x-1" style={{ fontFamily: 'Montserrat, sans-serif' }}>
+                        <button className="bg-[#1F9B3A] hover:bg-green-400 text-white px-5 py-2 rounded-full font-medium transition-colors flex items-center space-x-1" style={{ fontFamily: 'Montserrat, sans-serif' }}>
                             <img src="/wpp.png" alt="Whatsapp Logo" width={25}/>
                             <span>Agendamento</span>
                         </button>
@@ -38,7 +38,7 @@ const Header = () => {
 
                     {/* Área de Menu Mobile */}
                     <div className="md:hidden flex space-x-4">
-                        <button className="bg-green-500 hover:bg-green-600 text-white px-3 py-1.5 md:px-5 md:py-2 text-sm md:text-base rounded-full font-medium transition-colors flex items-center space-x-1" style={{ fontFamily: 'Montserrat, sans-serif' }}>
+                        <button className="bg-[#1F9B3A] hover:bg-green-400 text-white px-4 py-1.5 md:px-5 md:py-2 text-sm md:text-base rounded-full font-medium transition-colors flex items-center space-x-1" style={{ fontFamily: 'Montserrat, sans-serif' }}>
                             <img src="/wpp.png" alt="Whatsapp Logo" className='w-[5vw]'/>
                             <span>Agendamento</span>
                         </button>
