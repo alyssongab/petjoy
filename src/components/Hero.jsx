@@ -19,6 +19,8 @@ const Hero = () => {
                         Seu Pet Merece o Melhor!
                     </h1>
                     <img src="/hero.png" alt="Hero" className="w-[90vw] sm:w-[80vw] md:w-[60vw] object-contain mt-7"/>
+                    <p className="flex flex-col text-petbrown text-center font-bold text-xl mt-8">Transforme a vida do seu peludo em uma experiência única.
+                    <span>Venha ser PetJoy!</span></p>
                 </div>
             </div>
         </section>
