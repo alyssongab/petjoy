@@ -21,7 +21,7 @@ const Hero = () => {
                       {/* Imagem visível apenas acima de 400px */}
                 <img src="/hero.png" alt="Hero" className="bg- w-[90vw] sm:w-[80vw] md:w-[60vw] object-contain mt-7 max-[400px]:hidden"/>
                 
-                <p className="flex flex-col text-petbrown text-center font-bold text-xl mt-8 max-[400px]:bg-transparent max-[400px]:bg-opacity-70 max-[400px]:p-4 max-[400px]:rounded-lg">
+                <p className="flex flex-col text-petbrown text-center font-bold text-lg sm:text-xl mt-8 max-[400px]:bg-transparent max-[400px]:bg-opacity-70 max-[400px]:p-4 max-[400px]:rounded-lg">
                     Transforme a vida do seu peludo em uma experiência única.
                     <span>Venha ser PetJoy!</span>
                 </p>
