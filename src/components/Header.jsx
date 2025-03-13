@@ -30,10 +30,12 @@ const Header = () => {
 
                     {/* Botão de Agendamento (link para whatsapp) */}
                     <div className="hidden md:flex items-center">
-                        <button className="bg-[#1F9B3A] hover:bg-green-400 text-white px-5 py-2 rounded-full font-medium transition-colors flex items-center space-x-1" style={{ fontFamily: 'Montserrat, sans-serif' }}>
-                            <img src="/wpp.png" alt="Whatsapp Logo" width={25}/>
-                            <span>Agendamento</span>
-                        </button>
+                        <a href="https://wa.me/5592988016664" target='_blank'>
+                            <button className="bg-[#1F9B3A] hover:bg-green-400 text-white px-5 py-2 rounded-full font-medium transition-colors flex items-center space-x-1" style={{ fontFamily: 'Montserrat, sans-serif' }}>
+                                <img src="/wpp.png" alt="Whatsapp Logo" width={25}/>
+                                <span>Agendamento</span>
+                            </button>
+                        </a>
                     </div>
 
                     {/* Área de Menu Mobile */}
