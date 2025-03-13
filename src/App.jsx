@@ -1,5 +1,5 @@
 import Header from './components/Header';
-import Hero from './sections/Hero';
+import Hero from './components/Hero';
 
 const App = () => {
   return (
