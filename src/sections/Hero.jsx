@@ -1,14 +1,16 @@
+import HeroSection from "../components/HeroSection";
+
 const Hero = () => {
     
     return (
-        <section id="hero" className="relative bg-[#E7B100] h-[90vh] bg-opacity-10 max-[400px]:bg-[url('/hero.png')] max-[400px]:bg-cover max-[400px]:bg-center max-[400px]:bg-no-repeat max-[400px]:bg-blend-overlay max-[400px]:before:content-[''] max-[400px]:before:absolute max-[400px]:before:inset-0 max-[400px]:before:bg-amber-50 max-[400px]:before:opacity-80 max-[400px]:before:z-0 max-[400px]:h-[60vh]">
+        <HeroSection>
             {/* Semi circulo esquerdo */}
-            <div className="hidden md:block md:w-[13vw] md:absolute top-5 left-0">
+            <div className="hidden md:block md:w-[11vw] md:absolute top-5 left-[-5px]">
                 <img src="/elipseleft.png" alt="Semicirculo" className="h-[60vh]"/>
             </div>
 
             {/* Semi ciruclo direito */}
-            <div className="hidden md:block md:w-[13vw] md:absolute right-0 top-32">
+            <div className="hidden md:block md:w-[11vw] md:absolute right-0 top-32">
                 <img src="/elipseright.png" alt="Semicirculo" className="h-[60vh]" />
             </div>
 
@@ -27,7 +29,7 @@ const Hero = () => {
                 </p>
                 </div>
             </div>
-        </section>
+        </HeroSection>
     );
 }
 
