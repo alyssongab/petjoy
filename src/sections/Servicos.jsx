@@ -2,16 +2,18 @@ import Card from "../components/Card";
 
 const Servicos = ({ cards }) => {
     return(
-        <section id="servicos" className="bg-[#E8C44F] flex flex-col">
+        <section id="servicos" className="bg-[#E8C44F] flex flex-col pb-10">
 
             <div id="subtitle-servicos">
-                <h2 className="text-petbrown text-xl sm:text-2xl font-semibold p-4" style={{ fontFamily: 'Montserrat, sans-serif' }}>
+                <h2 className="text-petbrown text-2xl sm:text-4xl font-bold p-4" style={{ fontFamily: 'Montserrat, sans-serif' }}>
                     Conheça alguns de nossos serviços
                 </h2>
             </div>
 
-            <div id="cards" className="flex justify-around">
-                {cards}
+            <div id="cards" className="flex p-6 items-center justify-around">
+                <Card/>
+                <Card/>
+                <Card/>
             </div>
 
         </section>
