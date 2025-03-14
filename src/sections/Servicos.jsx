@@ -11,7 +11,12 @@ const Servicos = ({ cards }) => {
             </div>
 
             <div id="cards" className="flex p-6 items-center justify-around">
-                <Card/>
+                <Card
+                    titulo="Banho e Tosa"
+                    imgUrl="/card1.png"
+                    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec purus."
+                    botao="Saiba mais"
+                />
                 <Card/>
                 <Card/>
             </div>
