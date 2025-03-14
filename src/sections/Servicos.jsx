@@ -2,7 +2,7 @@ import Card from "../components/Card";
 
 const Servicos = ({ cards }) => {
     return(
-        <section id="servicos" className="bg-[#E8C44F] flex flex-col pb-10">
+        <section id="servicos" className="bg-[#E8C44F] flex flex-col pt-5 pb-10">
 
             <div id="subtitle-servicos">
                 <h2 className="text-petbrown text-2xl sm:text-4xl font-bold p-4" style={{ fontFamily: 'Montserrat, sans-serif' }}>
@@ -13,12 +13,22 @@ const Servicos = ({ cards }) => {
             <div id="cards" className="flex p-6 items-center justify-around">
                 <Card
                     titulo="Banho e Tosa"
-                    imgUrl="/card1.png"
+                    imgUrl="/card-banhotosa.png"
                     desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec purus."
                     botao="Saiba mais"
                 />
-                <Card/>
-                <Card/>
+                <Card
+                    titulo="Consultas"
+                    imgUrl="/card-consultas.png"
+                    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec purus."
+                    botao="Saiba mais"
+                />
+                 <Card
+                    titulo="Consultas"
+                    imgUrl="/card-consultas.png"
+                    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec purus."
+                    botao="Saiba mais"
+                />
             </div>
 
         </section>
