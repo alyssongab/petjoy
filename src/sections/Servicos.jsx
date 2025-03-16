@@ -4,13 +4,13 @@ const Servicos = () => {
     return(
         <section id="servicos" className="bg-[#E8C44F] wider:min-h-[80vh] flex flex-col pt-5 pb-10">
 
-            <div id="subtitle-servicos">
-                <h2 className="text-petbrown text-center text-2xl sm:text-4xl font-bold p-5" style={{ fontFamily: 'Montserrat, sans-serif' }}>
+            <div id="subtitle-servicos" className="p-8">
+                <h2 className="text-petbrown text-center text-2xl sm:text-4xl font-bold " style={{ fontFamily: 'Montserrat, sans-serif' }}>
                     Conheça alguns de nossos serviços
                 </h2>
             </div>
 
-            <div id="cards" className="flex p-6 gap-2 sm:justify-around">
+            <div id="cards" className="flex p-5 gap-2 sm:justify-around overflow-hidden">
                 <Card
                     titulo="Banho e Tosa"
                     imgUrl="/card-banhotosa.png"
