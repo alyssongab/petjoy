@@ -5,13 +5,13 @@ const Hero = () => {
     return (
         <HeroSection>
             {/* Semi circulo esquerdo */}
-            <div className="hidden md:block md:w-[11vw] md:absolute top-5 left-[-5px]">
-                <img src="/elipseleft.png" alt="Semicirculo" className="h-[60vh]"/>
+            <div className="hidden md:block md:w-[9vw] md:absolute top-5 left-[-5px]">
+                <img src="/elipseleft.png" alt="Semicirculo" className="h-60 lg:h-96"/>
             </div>
 
             {/* Semi ciruclo direito */}
-            <div className="hidden md:block md:w-[11vw] md:absolute right-0 top-32">
-                <img src="/elipseright.png" alt="Semicirculo" className="h-[60vh]" />
+            <div className="hidden md:block md:w-[8vw] md:absolute right-0 top-60">
+                <img src="/elipseright.png" alt="Semicirculo" className="h-60 lg:h-96" />
             </div>
 
             {/* Imagem principal e Subtitulo */}
