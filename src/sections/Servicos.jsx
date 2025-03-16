@@ -14,13 +14,13 @@ const Servicos = ({ cards }) => {
                 <Card
                     titulo="Banho e Tosa"
                     imgUrl="/card-banhotosa.png"
-                    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec purus."
+                    desc="Serviços de banho completo, tosa e cuidados com a pele e pelagem, específicos para cada tipo de animal."
                     botao="Saiba mais"
                 />
                 <Card
                     titulo="Consultas"
                     imgUrl="/card-consultas.png"
-                    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec purus."
+                    desc="Agendamento de consultas veterinárias com diferentes especialidades."
                     botao="Saiba mais"
                 />
                  <Card
