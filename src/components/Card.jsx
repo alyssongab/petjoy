@@ -2,7 +2,7 @@ const Card = ({titulo, imgUrl, desc, botao}) => {
     return(
         <div id="card" className="bg-slate-100 rounded-3xl w-[30vw] md:w-[27vw] lg:w-[25vw] min-[1440px]:w-[27vw] wider:h-[70vh] p-4 flex flex-col hover:scale-105 transition duration-300">
             {/* titulo, img, desc, button */}
-            <div id="conteudo-card" className="h-full flex flex-col items-center justify-between text-center gap-5">
+            <div id="conteudo-card" className="p-4 h-full flex flex-col items-center justify-between text-center gap-5">
 
                 <h2 className="text-center font-bold text-xs sm:text-xl md:text-2xl wider:text-3xl">{titulo}</h2>
 
