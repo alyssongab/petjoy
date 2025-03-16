@@ -1,20 +1,20 @@
 import Card from "../components/Card";
 
-const Servicos = ({ cards }) => {
+const Servicos = () => {
     return(
         <section id="servicos" className="bg-[#E8C44F] wider:min-h-[80vh] flex flex-col pt-5 pb-10">
 
             <div id="subtitle-servicos">
-                <h2 className="text-petbrown text-2xl sm:text-4xl font-bold p-4" style={{ fontFamily: 'Montserrat, sans-serif' }}>
+                <h2 className="text-petbrown text-center text-2xl sm:text-4xl font-bold p-5" style={{ fontFamily: 'Montserrat, sans-serif' }}>
                     Conheça alguns de nossos serviços
                 </h2>
             </div>
 
-            <div id="cards" className="flex p-6 items-center justify-around">
+            <div id="cards" className="flex p-6 gap-2 sm:justify-around">
                 <Card
                     titulo="Banho e Tosa"
                     imgUrl="/card-banhotosa.png"
-                    desc="Serviços de banho completo, tosa e cuidados com a pele e pelagem, específicos para cada tipo de animal."
+                    desc="Banho completo, tosa e cuidados com a pele/pelagem, específicos para cada tipo de pet."
                     botao="Saiba mais"
                 />
                 <Card
@@ -24,9 +24,9 @@ const Servicos = ({ cards }) => {
                     botao="Saiba mais"
                 />
                  <Card
-                    titulo="Consultas"
-                    imgUrl="/card-consultas.png"
-                    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec purus."
+                    titulo="Hospedagem"
+                    imgUrl="/card-hospedagem.png"
+                    desc="Espaços seguros para hospedar os pets durante o dia, incluindo áreas de recreação."
                     botao="Saiba mais"
                 />
             </div>
