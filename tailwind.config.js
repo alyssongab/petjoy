@@ -9,6 +9,11 @@ export default {
     extend: {
       colors: {
         'petbrown': '#613E0D',
+      },
+      screens: {
+        'wider': '1440px',
+        // => @media (min-width: 1440px) { ... }
+        // telas mais largas
       }
     },
   },

@@ -10,7 +10,7 @@ const Hero = () => {
             </div>
 
             {/* Semi ciruclo direito */}
-            <div className="hidden md:block md:w-[8vw] md:absolute right-0 top-60 min-[1366px]:top-80">
+            <div className="hidden md:block md:w-[8vw] md:absolute right-0 top-60 wider:top-80">
                 <img src="/elipseright.png" alt="Semicirculo" className="h-60 lg:h-96" />
             </div>
 

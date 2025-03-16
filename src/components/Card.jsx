@@ -1,6 +1,6 @@
 const Card = ({titulo, imgUrl, desc, botao}) => {
     return(
-        <div id="card" className="bg-slate-100 rounded-3xl min-h-[10vh] w-[28vw] md:w-[vw] lg:w-[25vw] min-[1366px]:w-[27vw] p-4 flex flex-col shadow-2xl hover:scale-105 transition duration-300">
+        <div id="card" className="bg-slate-100 rounded-3xl min-h-[10vh] w-[28vw] md:w-[vw] lg:w-[25vw] min-[1440px]:w-[27vw] min-[1440px]:h-[60vh] p-4 flex flex-col shadow-2xl hover:scale-105 transition duration-300">
             {/* titulo, img, desc, button */}
             <div id="conteudo-card" className="p-1 sm:p-3 flex flex-col items-center gap-6 sm:gap-4 md:gap-6 h-full">
                 <h2 className="text-lg sm:text-xl md:text-2xl font-bold text-opacity-45">{titulo}</h2>
