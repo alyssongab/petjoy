@@ -10,7 +10,7 @@ const Hero = () => {
             </div>
 
             {/* Semi ciruclo direito */}
-            <div className="hidden md:block md:w-[8vw] md:absolute right-0 top-60">
+            <div className="hidden md:block md:w-[8vw] md:absolute right-0 top-60 min-[1366px]:top-80">
                 <img src="/elipseright.png" alt="Semicirculo" className="h-60 lg:h-96" />
             </div>
 
@@ -23,7 +23,7 @@ const Hero = () => {
                       {/* Imagem visível apenas acima de 400px */}
                 <img src="/hero.png" alt="Hero" className="bg- w-[90vw] sm:w-[80vw] md:w-[60vw] object-contain mt-7 max-[400px]:hidden"/>
                 
-                <p className="flex flex-col text-petbrown text-center font-bold text-lg sm:text-xl mt-8 max-[400px]:bg-transparent max-[400px]:bg-opacity-70 max-[400px]:p-4 max-[400px]:rounded-lg">
+                <p className="flex flex-col text-petbrown text-center font-bold text-lg sm:text-xl lg:text-3xl lg:pt-8 mt-8 max-[400px]:bg-transparent max-[400px]:bg-opacity-70 max-[400px]:p-4 max-[400px]:rounded-lg">
                     Transforme a vida do seu peludo em uma experiência única.
                     <span>Venha ser PetJoy!</span>
                 </p>
