@@ -10,7 +10,7 @@ const Servicos = () => {
                 </h2>
             </div>
 
-            <div id="cards" className="flex p-5 gap-2 sm:justify-around overflow-hidden">
+            <div id="cards" className="flex p-5 gap-2 sm:justify-around overflow-visible">
                 <Card
                     titulo="Banho e Tosa"
                     imgUrl="/card-banhotosa.png"
