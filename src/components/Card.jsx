@@ -1,10 +1,10 @@
 const Card = ({titulo, imgUrl, desc, botao}) => {
     return(
-        <div id="card" className="bg-slate-100 rounded-3xl w-[30vw] md:w-[27vw] lg:w-[25vw] min-[1440px]:w-[27vw] wider:h-[70vh] p-4 flex flex-col hover:scale-105 transition duration-300">
+        <div id="card" className="bg-slate-100 rounded-3xl w-[30vw] md:w-[27vw] lg:w-[25vw] min-[1440px]:w-[27vw] wider:h-[75vh] p-4 flex flex-col hover:scale-105 transition duration-300">
             {/* titulo, img, desc, button */}
-            <div id="conteudo-card" className="md:p-4 h-full flex flex-col items-center justify-between text-center gap-5">
+            <div id="conteudo-card" className="md:p-4 h-full flex flex-col items-center justify-between text-center">
 
-                <h2 className="text-center font-bold text-xs sm:text-xl md:text-2xl wider:text-3xl">{titulo}</h2>
+                <h2 className="text-center pb-3 font-bold text-xs sm:text-xl md:text-2xl wider:text-3xl">{titulo}</h2>
 
                 <img src={imgUrl} alt="pets" className="m-auto w-[18vw] sm:w-[150px] md:w-[250px] lg:[300px] wider:w-[350px] object-contain"/>
 
