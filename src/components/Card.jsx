@@ -19,12 +19,14 @@ const Card = ({titulo, imgUrl, desc, botao}) => {
                 
                 {/* Container da descricao do card */}
                 <div id="box-desc" className="sm:max-md:w-[70vw] text-center p-2">
-                    <p className="text-sm sm:text-base md:text-lg 2xl:text-xl">{desc}</p>
+                    <p className="text-base md:text-xl 2xl:text-2xl">{desc}</p>
                 </div>
 
                 {/* Container do botao do card */}
                 <div id="box-botao" className="">
-                    <button className="bg-petbrown text-slate-50 p-1 sm:p-2 text-[0.50em] sm:text-base wider:text-xl w-[15vw] wider:w-72 wider:rounded-3xl rounded-2xl hover:scale-105">{botao}</button>
+                    <a href="https://wa.me/5592988016664" target='_blank'>
+                        <button className="bg-petbrown text-slate-50 rounded-2xl hover:scale-105 xl:text-xl p-2 max-[400px]:w-28 w-40 xl:w-60">{botao}</button>
+                    </a>
                 </div>
             </div>
         </div>
