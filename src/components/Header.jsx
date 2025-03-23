@@ -10,7 +10,7 @@ const Header = () => {
                     {/* Logo e Nome (Esquerda) */}
                     <div className="flex items-center space-x-2">
                         <a href='#' className='flex items-center hover:scale-110 transition-all duration-300'>
-                            <div className="w-10 h-10 bg-amber-50 rounded-full flex items-center justify-center">
+                            <div className="w-10 h-10 bg-white rounded-full flex items-center justify-center">
                                 <img src="/logo.png" alt="PetJoy Logo" className='w-6 md:w-8 object-contain'/>
                             </div>
                             <span className="text-petbrown font-bold text-2xl sm:text-3xl " style={{ fontFamily: 'Lilita One, sans-serif' }}>
