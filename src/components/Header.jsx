@@ -64,7 +64,7 @@ const Header = () => {
                     <li><a href="#servicos" className="block text-gray-700 py-2" style={{ fontFamily: 'Montserrat, sans-serif' }}>Serviços</a></li>
                     <li><a href="#faq" className="block text-gray-700 py-2" style={{ fontFamily: 'Montserrat, sans-serif' }}>FAQ</a></li>
                     <li><a href="#localizacao" className="block text-gray-700 py-2" style={{ fontFamily: 'Montserrat, sans-serif' }}>Localização</a></li>
-                    <li><a href="#" className="min-[380px]:hidden text-gray-700 py-2" style={{ fontFamily: 'Montserrat, sans-serif' }}>Agendamento</a></li>
+                    <li><a href="https://wa.me/5592988016664" className="min-[380px]:hidden text-gray-700 py-2" style={{ fontFamily: 'Montserrat, sans-serif' }}>Agendamento</a></li>
                 </ul>
             </div>
         </header>
