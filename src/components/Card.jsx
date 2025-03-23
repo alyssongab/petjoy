@@ -1,8 +1,8 @@
 const Card = ({titulo, imgUrl, desc, botao}) => {
     return(
-        <div id="card" className="bg-slate-50">
+        <div id="card" className="bg-slate-50 flex flex-col rounded-2xl shadow-lg w-[85vw] h-[50vh] md:w-[60vw] md:h-[70vh]">
             {/* titulo, img, desc, button */}
-            <div id="conteudo-card" className="md:p-4 h-full flex flex-col items-center justify-between text-center">
+            <div id="conteudo-card" className="md:p-4 h-full flex flex-col items-center justify-between text-center gap-3">
 
                 <div id="box-titulo" className="bg-pink-400">
                     {/* <h2 className="text-center pb-3 font-bold text-xs sm:text-xl md:text-2xl wider:text-3xl">{titulo}</h2> */}

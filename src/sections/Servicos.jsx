@@ -10,7 +10,7 @@ const Servicos = () => {
                 </h2>
             </div>
 
-            <div id="cards" className="flex flex-col sm:flex-row justify-evenly items-center p-3">
+            <div id="cards" className="flex flex-col md:flex-row justify-evenly items-center gap-8">
                 <Card
                     titulo="Banho e Tosa"
                     imgUrl="/card-banhotosa.png"
