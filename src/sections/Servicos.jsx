@@ -10,7 +10,7 @@ const Servicos = () => {
                 </h2>
             </div>
 
-            <div id="cards" className="flex flex-col md:flex-row justify-evenly items-center gap-8">
+            <div id="cards" className="flex flex-col pb-5 md:p-8 md:flex-row justify-evenly items-center gap-8">
                 <Card
                     titulo="Banho e Tosa"
                     imgUrl="/card-banhotosa.png"
@@ -23,12 +23,12 @@ const Servicos = () => {
                     desc="Agendamento de consultas veterinárias com diferentes especialidades."
                     botao="Saiba mais"
                 />
-                 <Card
+                 {/* <Card
                     titulo="Hospedagem"
                     imgUrl="/card-hospedagem.png"
                     desc="Espaços seguros para hospedar os pets durante o dia, incluindo áreas de recreação."
                     botao="Saiba mais"
-                />
+                /> */}
             </div>
 
         </section>
