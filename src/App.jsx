@@ -1,6 +1,7 @@
 import Header from './components/Header';
 import Hero from './sections/Hero';
 import Servicos from './sections/Servicos';
+import Faq from './sections/Faq';
 
 const App = () => {
   return (
@@ -8,6 +9,7 @@ const App = () => {
           <Header />
           <Hero />
           <Servicos/>
+          <Faq/>
       </>
   );
 }

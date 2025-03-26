@@ -20,13 +20,13 @@ const Hero = () => {
                     <h1 className="text-petbrown text-3xl sm:text-4xl md:text-5xl font-bold text-center" style={{ fontFamily: 'Lilita One, sans-serif' }}>
                         Seu Pet Merece o Melhor!
                     </h1>
-                      {/* Imagem visível apenas acima de 400px */}
-                <img src="/hero.png" alt="Hero" className="w-[90vw] sm:w-[80vw] md:w-[60vw] object-contain mt-7 max-[400px]:hidden"/>
-                
-                <p className="flex flex-col text-petbrown text-center font-bold text-lg sm:text-2xl p-7" style={{ fontFamily: 'Montserrat, sans-serif' }}>
-                    Transforme a vida do seu peludo em uma experiência única.
-                    <span>Venha ser PetJoy!</span>
-                </p>
+                    {/* Imagem visível apenas acima de 400px */}
+                    <img src="/hero.png" alt="Hero" className="w-[90vw] sm:w-[80vw] md:w-[60vw] object-contain mt-7 max-[400px]:hidden"/>
+                    
+                    <p className="flex flex-col text-petbrown text-center font-bold text-lg sm:text-2xl p-7" style={{ fontFamily: 'Montserrat, sans-serif' }}>
+                        Transforme a vida do seu peludo em uma experiência única.
+                        <span>Venha ser PetJoy!</span>
+                    </p>
                 </div>
             </div>
         </HeroSection>
