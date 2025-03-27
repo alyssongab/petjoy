@@ -4,8 +4,8 @@ const Faq = () => {
     return(
        <section id="faq" className="bg-slate-50">
             {/* subtitulo da secao */}
-            <div id="subtitle-faq" className="p-3">
-                <h2 className="text-center text-2xl font-bold">Perguntas frequentes</h2>
+            <div id="subtitle-faq" className="p-3 lg:p-5">
+                <h2 className="text-center text-2xl font-bold lg:text-3xl xl:text-4xl">Perguntas frequentes</h2>
             </div>
 
             {/* Div que controla as 2 colunas em desktop: Imagem e Boxes */}
@@ -18,7 +18,7 @@ const Faq = () => {
                     </div>
                 </div>
                 {/* Componente: Pergunta + Resposta */}
-                <div id="faq-box" className="lg:w-[50vw] lg:space-y-2">
+                <div id="faq-box" className="lg:w-[50vw] lg:space-y-2 xl:w-[45vw]">
                     <FaqBox
                         pergunta="Quais tipos de pets vocês atendem?"
                         resposta="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis et id dolore ab asperiores iusto. Natus eveniet similique veritatis at, obcaecati minima quos provident dolores est dignissimos beatae cumque in."
