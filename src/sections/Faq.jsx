@@ -13,7 +13,7 @@ const Faq = () => {
                 {/* Imagem (Oculta em mobiles) */}
                 <div className="hidden lg:block">
                     {/* Div da imagem */}
-                    <div>
+                    <div className="flex justify-center items-center">
                         <img src="/img-faq.png" alt="faq-svg" />
                     </div>
                 </div>
