@@ -10,11 +10,11 @@ const FaqBox = ({ pergunta, resposta }) => {
     }
 
     return(
-        <div className="p-3">
+        <div className="m-auto md:w-[80vw] lg:w-[45vw]">
 
-            <div id="pergunta" className="lg:p-2 bg-[#FFF188] rounded-lg">
+            <div id="pergunta" className="p-1 lg:p-2 bg-[#FFF188] rounded-lg">
                 <div className="flex flex-row justify-between items-center p-2">
-                    <p className="font-semibold text-sm w-[80vw] lg:text-lg">{pergunta}</p>
+                    <p className="font-semibold text-sm w-[80vw] lg:text-base xl:text-lg">{pergunta}</p>
                     <button onClick={handleResposta}>
                         {!abrirResposta ? 
                         <CirclePlus className='cursor-pointer'/>
@@ -26,7 +26,7 @@ const FaqBox = ({ pergunta, resposta }) => {
             </div>
             <div id="resposta" 
                 className={`bg-[#FFF8C2] p-3 mt-[-5px] overflow-hidden transition-all duration-300 ease-in-out
-                ${abrirResposta ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0 p-0'}`}>
+                ${abrirResposta ? 'max-h-96 opacity-100 mb-5' : 'max-h-0 opacity-0 p-0'}`}>
                 {resposta}
             </div>
         </div>

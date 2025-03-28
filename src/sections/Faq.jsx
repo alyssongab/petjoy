@@ -2,7 +2,7 @@ import FaqBox from "../components/FaqBox";
 
 const Faq = () => {
     return(
-       <section id="faq" className="bg-slate-50">
+       <section id="faq" className="bg-slate-50 p-4">
             {/* subtitulo da secao */}
             <div id="subtitle-faq" className="p-3 lg:p-5">
                 <h2 className="text-center text-2xl font-bold lg:text-3xl xl:text-4xl">Perguntas frequentes</h2>
