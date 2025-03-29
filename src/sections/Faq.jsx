@@ -14,11 +14,11 @@ const Faq = () => {
                 <div className="hidden lg:block">
                     {/* Div da imagem */}
                     <div className="flex justify-center items-center">
-                        <img src="/img-faq.png" alt="faq-svg" />
+                        <img src="/img-faq.png" alt="faq-svg" className="max-w-[90%]"/>
                     </div>
                 </div>
                 {/* Componente: Pergunta + Resposta */}
-                <div id="faq-box" className="lg:w-[50vw] lg:space-y-2 xl:w-[45vw]">
+                <div id="faq-box" className="lg:w-[48vw] lg:space-y-2 xl:w-[45vw]">
                     <FaqBox
                         pergunta="Quais tipos de pets vocês atendem?"
                         resposta="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis et id dolore ab asperiores iusto. Natus eveniet similique veritatis at, obcaecati minima quos provident dolores est dignissimos beatae cumque in."
