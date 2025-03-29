@@ -14,7 +14,7 @@ const FaqBox = ({ pergunta, resposta }) => {
 
             <div id="pergunta" className="p-1 lg:p-2 bg-[#FFF188] rounded-lg">
                 <div className="flex flex-row justify-between items-center p-2">
-                    <p className="font-semibold text-sm w-[80vw] lg:text-base xl:text-lg">{pergunta}</p>
+                    <p className="font-semibold text-sm w-[65vw] lg:w-[38vw] lg:text-base xl:text-lg">{pergunta}</p>
                     <button onClick={handleResposta}>
                         {!abrirResposta ? 
                         <CirclePlus className='cursor-pointer'/>

@@ -23,12 +23,12 @@ const Servicos = () => {
                     desc="Agendamento de consultas veterinárias com diferentes especialidades."
                     botao="Saiba mais"
                 />
-                 {/* <Card
+                 <Card
                     titulo="Hospedagem"
                     imgUrl="/card-hospedagem.png"
                     desc="Espaços seguros para hospedar os pets durante o dia, incluindo áreas de recreação."
                     botao="Saiba mais"
-                /> */}
+                />
             </div>
 
         </section>
