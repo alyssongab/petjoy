@@ -2,7 +2,7 @@ import Card from "../components/Card";
 
 const Servicos = () => {
     return(
-        <section id="servicos" className="bg-[#E8C44F]">
+        <section id="servicos" className="bg-[#E8C44F] p-4">
 
             <div id="subtitle-servicos" className=" p-5">
                 <h2 className="text-petbrown text-center text-3xl sm:text-4xl font-bold " style={{ fontFamily: 'Montserrat, sans-serif' }}>
