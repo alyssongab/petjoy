@@ -4,7 +4,7 @@ import { useState } from 'react';
 const Header = () => {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
     return (
-        <header className="bg-white shadow-sm fixed top-0 w-full z-50">
+        <header className="bg-white shadow-sm lg:fixed lg:top-0 lg:w-full lg:z-50">
             <div className="container mx-auto px-4 py-3">
                 <div className="flex items-center justify-around">
                     {/* Logo e Nome (Esquerda) */}
