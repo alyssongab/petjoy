@@ -1,12 +1,48 @@
-# React + Vite
+# 🐾 PetJoy - Landing Page de Petshop
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Status](https://img.shields.io/badge/Status-%20concluido-green)
+![Made with](https://img.shields.io/badge/Frontend-React-blue?logo=react)
+![Tailwind CSS](https://img.shields.io/badge/Style-Tailwind_CSS-38b2ac?logo=tailwind-css)
 
-Currently, two official plugins are available:
+## 📌 Descrição
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+PetJoy é uma landing page responsiva voltada para um petshop fictício. O projeto tem como objetivo oferecer uma interface clara, moderna e amigável para apresentar os serviços, localização e formas de contato da empresa.
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📷 Demonstração
+
+![demo](screenshot/demo.png)
+
+
+## 🚀 Funcionalidades
+
+- Layout moderno e responsivo
+- Seções: Sobre nós, Serviços, Localização, Contato
+- Carrossel para visualização dos cards (serviços)
+- Footer com redes sociais e links rápidos
+- Design adaptado para dispositivos móveis
+
+
+## 🛠️ Tecnologias utilizadas
+
+- ![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=black)
+- ![Tailwind CSS](https://img.shields.io/badge/-Tailwind_CSS-38B2AC?logo=tailwind-css&logoColor=white)
+
+---
+
+## 📦 Como rodar o projeto
+1. Clonar o repositório:
+```bash
+git clone https://github.com/alyssongab/petjoy.git
+cd petjoy
+```
+
+2. Instalar as dependências
+```bash
+npm install
+```
+
+3. Rodar o projeto
+```bash
+npm run dev
+``` 

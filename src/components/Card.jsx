@@ -1,13 +1,13 @@
 const Card = ({titulo, imgUrl, desc, botao}) => {
     return(
         <div id="card" className="bg-slate-50 rounded-2xl p-2 shadow-xl 
-        w-full sm:w-[90%] md:w-[80%] lg:w-[90%] xl:w-[95%] 
-        h-[60vh] sm:h-[50vh] lg:h-[70vh] mx-auto">
+        w-full sm:w-[90%] xl:w-[95%] 
+        h-[60vh] sm:h-[50vh] md:h-[40vh] lg:h-[70vh] mx-auto">
             {/* titulo, img, desc, button */}
-            <div id="conteudo-card" className="md:p-4 h-full flex flex-col items-center justify-evenly xl:justify-between text-center">
+            <div id="conteudo-card" className="md:p-4 h-full flex flex-col items-center justify-evenly md:justify-between text-center">
 
                 {/* Container do titulo do card */}
-                <div id="box-titulo" className="text-xl md:text-3xl lg:text-3xl xl:text-4xl">
+                <div id="box-titulo" className="text-xl md:text-2xl lg:text-3xl xl:text-4xl">
                     <h2 className="text-center">{titulo}</h2>
                 </div>
 
@@ -21,7 +21,7 @@ const Card = ({titulo, imgUrl, desc, botao}) => {
                 
                 {/* Container da descricao do card */}
                 <div id="box-desc" className="sm:max-md:w-[70vw] text-center p-2">
-                    <p className="text-base md:text-lg xl:text-xl">{desc}</p>
+                    <p className="text-base xl:text-xl">{desc}</p>
                 </div>
 
                 {/* Container do botao do card */}
