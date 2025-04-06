@@ -2,7 +2,7 @@ import { MapPin } from 'lucide-react';
 
 const Local = () => {
   return (
-    <section id="localizacao" className="bg-[#FFF8C2]">
+    <section id="localizacao" className="bg-[#FFF8C2] pb-5">
 
         {/* Subtitulo da secao */}
         <div id="subtitle-local" className="p-3 lg:p-5">

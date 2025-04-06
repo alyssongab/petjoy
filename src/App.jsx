@@ -3,6 +3,7 @@ import Hero from './sections/Hero';
 import Servicos from './sections/Servicos';
 import Faq from './sections/Faq';
 import Local from './sections/Local'
+import Footer from './components/Footer';
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
           <Servicos/>
           <Faq/>
           <Local/>
+          <Footer/>
       </>
   );
 }
