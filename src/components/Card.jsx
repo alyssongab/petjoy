@@ -1,6 +1,8 @@
 const Card = ({titulo, imgUrl, desc, botao}) => {
     return(
-        <div id="card" className="bg-slate-50 flex flex-col rounded-2xl p-2 shadow-xl w-[85vw] h-[55vh] sm:h-[50vh] md:w-[60vw] md:h-[40vh] lg:w-[40vw] lg:h-[80vh] 2xl:w-[30vw] 2xl:h-[70vh] hover:scale-105 transition-all duration-300">
+        <div id="card" className="bg-slate-50 rounded-2xl p-2 shadow-xl 
+        w-full sm:w-[90%] md:w-[80%] lg:w-[90%] xl:w-[95%] 
+        h-[60vh] sm:h-[50vh] lg:h-[70vh] mx-auto">
             {/* titulo, img, desc, button */}
             <div id="conteudo-card" className="md:p-4 h-full flex flex-col items-center justify-evenly xl:justify-between text-center">
 

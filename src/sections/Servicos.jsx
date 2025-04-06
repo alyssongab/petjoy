@@ -1,16 +1,53 @@
 import Card from "../components/Card";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const Servicos = () => {
-    return(
-        <section id="servicos" className="bg-[#E8C44F] p-4">
 
-            <div id="subtitle-servicos" className=" p-5">
+    const settings = {
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+        ]
+    };
+
+    return(
+        <section id="servicos" className="bg-[#E8C44F] p-10">
+
+            <div id="subtitle-servicos" className="p-5">
                 <h2 className="text-petbrown text-center text-3xl sm:text-4xl font-bold " style={{ fontFamily: 'Montserrat, sans-serif' }}>
                     Conheça nossos serviços
                 </h2>
             </div>
 
-            <div id="cards" className="flex flex-col pb-5 md:p-8 md:flex-row justify-center items-center gap-8">
+            <Slider {...settings} className="p-5">
                 <Card
                     titulo="Banho e Tosa"
                     imgUrl="/card-banhotosa.png"
@@ -26,10 +63,24 @@ const Servicos = () => {
                  <Card
                     titulo="Hospedagem"
                     imgUrl="/card-hospedagem.png"
-                    desc="Espaços seguros para hospedar os pets durante o dia, incluindo áreas de recreação."
+                    desc="Texto reservado para descricção de algum serviço que possa ser adicionado"
                     botao="Saiba mais"
                 />
-            </div>
+
+                <Card
+                    titulo="Titulo"
+                    imgUrl="/card-hospedagem.png"
+                    desc="Texto reservado para descricção de algum serviço que possa ser adicionado"
+                    botao="Saiba mais"
+                />
+
+                <Card
+                    titulo="Titulo"
+                    imgUrl="/card-hospedagem.png"
+                    desc="Texto reservado para descricção de algum serviço que possa ser adicionado"
+                    botao="Saiba mais"
+                />
+            </Slider>
 
         </section>
     )
