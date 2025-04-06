@@ -42,7 +42,7 @@ const Local = () => {
                     <img src="/pin.png" alt="Localization" width={'150px'}/>
                 </div>
                 <p className='text-base'>
-                    Estamos localizados na rua xxx, numero xx, proximo ao (ponto de referencia). Faça um <a href='https://wa.me/5592988016664' target='_blank' className='text-amber-800 underline'>agendamento</a> ou venha trazer seu pet para uma visita!
+                    Estamos localizados na rua xxx, numero xx, proximo ao (ponto de referencia). Faça um <a href='https://wa.me/' target='_blank' className='text-amber-800 underline'>agendamento</a> ou venha trazer seu pet para uma visita!
                 </p>
             </div>
         </div>

@@ -39,7 +39,7 @@ export default function Footer() {
               <li className="hover:scale-105 transition-all duration-300"><a href="#">Home</a></li>
               {/* <li><a href="#">Sobre nós</a></li> */}
               <li className="hover:scale-105 transition-all duration-300"><a href="#localizacao">Localização</a></li>
-              <li className="hover:scale-105 transition-all duration-300"><a href='https://wa.me/5592988016664' target='_blank'>Agendar uma consulta</a></li>
+              <li className="hover:scale-105 transition-all duration-300"><a href='https://wa.me/' target='_blank'>Agendar uma consulta</a></li>
             </ul>
           </div>
         </div>

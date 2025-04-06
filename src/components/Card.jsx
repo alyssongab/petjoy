@@ -26,7 +26,7 @@ const Card = ({titulo, imgUrl, desc, botao}) => {
 
                 {/* Container do botao do card */}
                 <div id="box-botao" className="">
-                    <a href="https://wa.me/5592988016664" target='_blank'>
+                    <a href="https://wa.me/" target='_blank'>
                         <button className="bg-petbrown text-slate-50 rounded-2xl hover:scale-105 xl:text-xl p-2 max-[400px]:w-28 w-40 xl:w-60">{botao}</button>
                     </a>
                 </div>
