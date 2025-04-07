@@ -3,7 +3,7 @@ const Card = ({titulo, imgUrl, desc, botao}) => {
         <div id="card" className="bg-slate-50 rounded-2xl p-3 shadow-xl 
         w-full sm:w-[90%] h-[60vh] sm:h-[50vh] md:h-[40vh] lg:h-[73vh] mx-auto">
             {/* titulo, img, desc, button */}
-            <div id="conteudo-card" className="md:p-4 h-full flex flex-col items-center justify-evenly md:justify-between text-center">
+            <div id="conteudo-card" className=" h-full flex flex-col items-center justify-evenly md:justify-around text-center">
 
                 {/* Container do titulo do card */}
                 <div id="box-titulo" className="text-xl md:text-2xl lg:text-3xl xl:text-4xl">
